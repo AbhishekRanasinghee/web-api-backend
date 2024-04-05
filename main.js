@@ -4,7 +4,7 @@ const sql = require('mssql');
 const app = express();
 
 const config = {
-  user: 'sradmin'
+  user: 'sradmin',
   password: 'Ranasinghe@123',
   server: 'srdbdataserver.database.windows.net',
   database: 'srweather',
